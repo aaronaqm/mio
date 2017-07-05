@@ -1,0 +1,254 @@
+.men ul{
+	/*color fondo barra*/
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+        
+	}
+	.men li{
+		float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 12px;
+
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+        font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+		}
+	.men li a{
+		display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-radius: 2px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+              
+		}
+	.men li:hover{
+		background-color: #00A3C3;
+        border-radius: 5px;
+        color: white;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+              
+		}	
+			
+	.men li ul{
+		/*color fondo opciones submenus*/
+		
+        background: rgba(0,163,195,0.81);
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:240px;
+		z-index:200;
+		
+		}
+	.men li:hover ul{
+		display:block;
+		
+		}
+	.men li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:240px;
+		}
+	.men li:hover li a{
+		background:none;
+		
+		}
+	.men li ul a{
+		display:block;
+		height:35px;
+		font-size:12px;
+        color:#fff;
+		font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.men li ul a:hover, .men li ul li:hover a{
+			background:#000;
+			padding-top: 5px;
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+                        
+                        
+	.men p{
+		clear:left;
+		}	
+.backmenu{
+	position: absolute;
+	z-index: 20;
+	top: 90px;
+	left: 0px;
+	width: 100%;
+	height: 70vh;
+	background-color: rgba(0,0,0,0.8);
+	display: none;
+}		
+.losproductos{
+	position: absolute;
+	z-index: 55;
+	top: 90px;
+	left: 18%;
+	width: 920px;
+	height: auto;
+	min-height: 320px;
+	padding: 25px;
+	display: none;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#05abe0+0,53cbf1+60,87e0fd+100 */
+	background: rgb(5,171,224); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(5,171,224,1) 0%, rgba(83,203,241,1) 60%, rgba(135,224,253,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 60%,rgba(135,224,253,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(5,171,224,1) 0%,rgba(83,203,241,1) 60%,rgba(135,224,253,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#05abe0', endColorstr='#87e0fd',GradientType=0 ); /* IE6-9 */
+
+	-webkit-box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+		-moz-box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+		box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+}
+
+.flex{
+	float: left;
+	
+	}
+.menut{
+	float: left;
+	width: 100%;
+	height:50px;
+
+	
+}
+
+.menut h3{
+	margin-left: 10px;
+	vertical-align: middle;
+    line-height: 50px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 2em;
+    color: #fff;
+    }
+.division{
+	float: left;
+	width: 200px;
+	height: 190px;
+	margin: 10px;
+	background-color: black;
+	transition-duration: 0.3s;
+    transition-timing-function: all;
+}
+.division:hover{
+	transform: scale(1.05); 
+	cursor:pointer;
+	-webkit-box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+	-moz-box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+	box-shadow: 9px 10px 1px -5px rgba(0,0,0,0.18);
+}
+.divfoto{
+	clear: both;
+	margin: 0 auto;
+	width: 200px;
+	height: 140px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+}
+.divtext{
+	clear: both;
+	margin: 0 auto;
+	width: 200px;
+	height: 50px;
+	background-color: #EBEAEA;
+
+}
+.divtext h3{
+	padding: 3px;
+	text-align: center;
+	padding-top: 10px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    color: #000;
+}
+
+.submenu{
+	float: left;
+	width: auto;
+	height: auto;
+	margin: 0 auto;
+	display: none;
+
+}
+.elija{
+	float: left;
+	width: 220px;
+	max-width: 30%;
+	height: 200px;
+	max-height: 400px;
+	margin-top: 50px;
+	
+}
+.elija p{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    color: #fff;
+    margin-right: 40px;
+}
+.volver{
+	position: absolute;
+	z-index: 102;
+	right:10px;
+	top: 10px;
+	width: 100px;
+	height: 25px;
+	cursor: pointer;
+	border: 2px solid #fff;
+	border-radius: 7px;
+	display: none;
+}
+
+.volver h5{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    line-height:25px;
+}
+.salir{
+	position: absolute;
+	z-index: 122;
+	right:10px;
+	top: 10px;
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	display: none;
+}
+.salir h3{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 1em;
+    text-align: center;
+    color: #fff;
+    vertical-align: middle;
+    line-height:30px;
+}

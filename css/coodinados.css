@@ -1,0 +1,254 @@
+.body{
+background-color: #EEEEEE;
+
+}
+#Contenedor {
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.1em;
+width: 900px;
+height:100%;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+background-color: white;
+color: black;
+/*border: 1px solid black;*/
+display: block;
+-moz-border-radius-topleft:0px;
+-moz-border-radius-topright:10px;
+-moz-border-radius-bottomleft:10px;
+-moz-border-radius-bottomright:0px;
+
+-webkit-border-top-left-radius:0px;
+-webkit-border-top-right-radius:10px;
+-webkit-border-bottom-left-radius:10px;
+-webkit-border-bottom-right-radius:0px;
+    box-shadow: 0 20px 30px gray;
+}
+
+
+#logo{
+    width: 250px;
+    float: left;
+    height: 120px;
+}
+#sus{
+    width: 650px;
+    float: left;
+    height: 20px;
+    }
+#sus ul{
+	/*color fondo barra*/
+	background:#FFF;
+	height:20px;
+	list-style:none;
+	margin:0;
+        padding:0;
+                
+	}
+
+#sus ul li a{
+		/*color texto menus*/
+		float: right;
+		display:block;
+		font-weight:normal;
+		line-height:20px;
+		margin-right: 12px;
+		padding:0px 3px;
+		text-decoration:none;
+                font-size:10px;
+                color:#00A3D9;
+                
+		}
+#sus ul li a:hover{
+		color:#69008C;
+                
+		}
+#arriba{
+    width: 550px;
+    float: left;
+    height: 40px;
+    
+}
+#arriba P{
+    
+    vertical-align: middle;
+}
+#tele{
+    width: 100px;
+    float: left;
+    height: 40px;
+    
+    }
+#tele p{
+     clear: both;
+     text-align:left;
+     font-size: 12px;
+     margin-top: 20px;
+     margin-left: 5px;
+     vertical-align: middle;
+     color: gray;
+    }
+#buscar{
+    width: 420px;
+    float: right;
+    height: 40px;
+    text-align: right; 
+    padding-top: 12px;
+}
+#texto{
+       width: 900px;
+       height: 100%;
+       float: left;
+         }
+#texto p{
+font-family: arial;
+size: 9px;
+clear: both;
+
+         }
+ #texto ul li a{
+    font-family: arial;
+    size: 10px;
+    text-decoration:none;
+    color: gray;
+ }
+ #texto ul li:hover{
+    font-family: arial;
+    size: 10px;
+    text-decoration:none;
+    color: red;
+ }
+#movie{
+    width: 900px;
+    background: white;
+    float: left;
+         } 
+
+#unox2{    
+    float: left;
+    width: 500px;
+    margin: 20px;
+    margin-right: 5px;
+ } 
+.unox12{    
+    float: left;
+    width: 200px;
+    margin: 8px;
+    margin-top: 60px;
+    padding-left: 30px;
+ }
+
+#que{
+    float: left;
+    width: 400px;
+    margin: 8px;
+    margin-top: 60px;
+   
+}
+#que p{
+    
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    color: #20202F;
+    }
+#que ul li{
+       list-style-type: square;
+       font-size: 12px;
+       color: black;
+   }
+   
+#que2{
+    float: left;
+    width: 250px;
+    margin: 20px;
+    text-align:center; 
+    alignment-baseline:central; 
+    }
+    
+    
+.unox{
+    float: left;
+    width: 250px;
+    margin: 20px;
+    margin-right: 5px;
+    }
+    #texto{
+    float: left;
+    width: 900px;
+    height: 100%;
+    }
+    .unox p{
+        font-size: 12px;
+        text-align: justify; 
+    }
+.unox ul li{
+       list-style-type: square;
+       font-size: 12px;
+       color: black;
+       
+   }
+   
+    
+ .mix{
+    float: left;
+    width: 245px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    /*padding-left: 18px;*/
+    background-color: white;
+    padding-top: 15px;
+    
+    display: block;
+   
+}
+.mix h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'arial';
+    color:black;
+    text-align: left;
+    line-height: 20px;
+   
+}
+.mix p{
+    font-size: 12px;
+    font-family: 'antipasto', sans-serif;
+    font-family: arial;
+    color:black;
+    text-align: justify;
+    line-height: 12px; 
+    }
+
+ .mix a{
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 600;
+    color:#067ABE;
+    text-align: left;
+    text-decoration: none;
+    } 
+    
+ .mix a:hover{
+     
+     color:#69008C;
+     text-decoration: none;
+     text-align: left;
+    } 
+    
+    #formula5{
+        width: 900px;
+        float: left;
+        
+    }  
+    #formula5 p{
+    font-size: 12px;
+    font-family: arial;
+    color:black;
+    text-align: justify;
+    line-height: 12px; 
+    }

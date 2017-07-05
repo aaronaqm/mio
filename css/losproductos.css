@@ -1,0 +1,143 @@
+  
+  .Contenedorprincipal{
+margin-top: 140px;
+width: 900px;
+height:auto;
+margin-left: auto;
+margin-right: auto;
+padding: 10px;
+
+}
+
+
+.Contenedorprincipal h2{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Nunito', sans-serif;
+    color:#00468C;
+    text-align: left;
+    line-height: 12px;
+    clear: both;
+   
+}
+.Contenedorprincipal h5{
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    color:#0085B2;
+    text-align: center;
+    line-height: 12px;
+    clear: both;
+   
+}
+.Contenedorprincipal h3{
+    font-size: 22px;
+    font-weight: 500;
+    font-family: 'Happy Monkey', cursive;
+    color:black;
+    text-align: left;
+    line-height: 12px;
+   
+}
+.Contenedorprincipal h6{
+    font-size: 14px;
+    font-family: 'arial', cursive;
+    color:black;
+    text-align: left;
+    line-height: 12px;
+   
+}
+.Contenedorprincipal p{
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: arial;
+    color:black;
+    text-align: left;
+    line-height: 12px;
+   
+}
+.eligeproductos{
+    float: left;
+    width: 900px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    
+    
+}
+.eligeproductos h3{
+    margin-top: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #000;
+    
+}
+.eligeproductos p {
+    font-size: 14px;
+    font-weight: 500;
+    color:#4C0066;
+    text-align: center;
+    
+    
+}
+.eligeproductos1{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    clear: both;
+    padding: 0px;
+      
+    
+}
+ .mix{
+    float: left;
+    width: 245px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    margin-top: 1px;
+    /*padding-left: 18px;*/
+    background-color: white;
+    padding-top: 15px;
+    
+    display: block;
+   
+}
+.mix h3{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'arial';
+    color:black;
+    text-align: left;
+    line-height: 20px;
+   
+}
+.mix p{
+    font-size: 12px;
+    font-family: 'antipasto', sans-serif;
+    font-family: arial;
+    color:black;
+    text-align: justify;
+    line-height: 12px; 
+    }
+
+ .mix a{
+    font-size: 13px;
+    font-family: arial;
+    font-weight: 600;
+    color:#067ABE;
+    text-align: left;
+    text-decoration: none;
+    } 
+    
+ .mix a:hover{
+     
+     color:#69008C;
+     text-decoration: none;
+     text-align: left;
+    } 
+    

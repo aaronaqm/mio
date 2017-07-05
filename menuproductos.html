@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="author" content="Aaron Aquino Manyari">
+        <link href="css/piepagina.css" rel="stylesheet" type="text/css">
+         <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/procomplementos.css" rel="stylesheet" type="text/css">
+        <link href="css/woco-accordion.css" rel="stylesheet" type="text/css">
+        <link href="css/losproductos.css" rel="stylesheet" type="text/css">
+        <link href="css/menu.css" rel="stylesheet" type="text/css">
+        <link href="css/miestilo.css" rel="stylesheet" type="text/css">
+         <link href="css/pie.css" rel="stylesheet" type="text/css">
+        <link href='http://fonts.googleapis.com/css?family=Aldrich' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Mallanna" rel="stylesheet">
+        <script type="text/javascript" src="js/jquery-1.6.2.min.js"></script>
+        <script type="text/javascript" src="js/jquery.cycle.all.js"></script>
+        <script type="text/javascript" src="js/woco.accordion.min.js"></script>
+       
+  
+
+    <script>
+        function mostrarmenu() {
+           $("#menuproductos").delay(200).fadeIn();
+         }
+       function optpesaje() {
+          $("#opcionpesaje").delay(500).fadeIn();
+          $('#eltitulo').text('Productos - Pesaje');
+       }
+       function optinstrumentacion() {
+          $("#opcioninstrumentacion").delay(500).fadeIn();
+          $('#eltitulo').text('Productos - Instrumentación clásica');
+       }
+        function optequipamiento() {
+          $("#opcioninstrumentacion").delay(500).fadeIn();
+          $('#eltitulo').text('Productos - Instrumentación clásica');
+       }
+       function ejecuta() {
+               $('#pesaje').fadeOut();
+               $('#equipamiento').fadeOut();
+               $('#instrumentacion').fadeOut();
+               $('#actuadores').fadeOut();
+               $('#sistemas').fadeOut();
+               $('#electrica').fadeOut();
+               $('#analitica').fadeOut();
+               $('#proteccion').fadeOut();
+               $("#backtoblack").fadeIn();
+          }
+      function resetea() {
+               $("#opcioninstrumentacion").hide();
+               $("#opcionpesaje").hide();
+               $("#backtoblack").fadeIn();
+               $('#eltitulo').text('Productos');
+               $('#pesaje').fadeIn();
+               $('#equipamiento').fadeIn();
+               $('#instrumentacion').fadeIn();
+               $('#actuadores').fadeIn();
+               $('#sistemas').fadeIn();
+               $('#electrica').fadeIn();
+               $('#analitica').fadeIn();
+               $('#proteccion').fadeIn();
+             }
+    </script>     
+
+
+    </head>
+    <body>
+    <div id="logox" class="logotipo"><img src="imgx/logotipo.svg"/></div>
+                  <nav id="lemenu" class="barramenu men">
+                        <ul>
+                          <li>Quiénes somos</li>
+                          <li onclick="mostrarmenu()">Productos</li>
+                          <li>Servicios</li>
+                          <li>Novedades</li>
+                          <li>Zona de descarga</li>
+                          <li>Contáctenos</li>
+                  </nav>
+
+      <div id="menuproductos" class="losproductos">
+        <div id="item1" class="menut">
+                <h3 id="eltitulo">Productos</h3>
+        </div> 
+        <div id="backtoblack" class="volver" onclick="resetea()">
+                <h5>Volver</h5>
+        </div>
+        <div id="flex" class="flex">
+            
+              <div id="pesaje" class="division" onclick="ejecuta();optpesaje()" >
+                 <div class="divfoto"><img src="imgx/menux/m1.png"></div>
+                 <div class="divtext"> <h3>Pesaje</h3></div>
+              </div>
+                      <div id="opcionpesaje" class="submenu">
+                          <div class="elija">
+                             <p>Elija la familia de producto al que desea acceder</p>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/pe1.png"></div>
+                             <div class="divtext"> <h3>Pesaje dinámico</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/pe2.png"></div>
+                             <div class="divtext"> <h3>Pesaje estáticos</h3></div>
+                          </div>
+                      </div>    
+              <div id="instrumentacion" class="division"  onclick="ejecuta();optinstrumentacion()">
+                 <div class="divfoto"><img src="imgx/menux/m2.png"></div>
+                 <div class="divtext"> <h3>Instrumentación clásica</h3></div>
+              </div>
+                      <div id="opcioninstrumentacion" class="submenu">
+                            <div class="elija">
+                             <p>Elija la familia de producto al que desea acceder</p>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic1.png"></div>
+                             <div class="divtext"> <h3>Caudal</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic2.png"></div>
+                             <div class="divtext"> <h3>Nivel</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic3.png"></div>
+                             <div class="divtext"> <h3>Presion</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic4.png"></div>
+                             <div class="divtext"> <h3>Analítica de procesos</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic5.png"></div>
+                             <div class="divtext"> <h3>Manómetros y sellos</h3></div>
+                          </div>
+                          <div class="division" onclick="optpesaje()" >
+                             <div class="divfoto"><img src="imgx/menux/ic6.png"></div>
+                             <div class="divtext"> <h3>Accesorios</h3></div>
+                          </div>
+                      </div>  
+              <div id="equipamiento" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m3.png"></div>
+                 <div class="divtext"> <h3>Equipamiento especializado</h3></div>
+              </div> 
+              <div id="actuadores" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m4.png"></div>
+                 <div class="divtext"> <h3>Actuadores, válvulas y accesorios</h3></div>
+              </div>      
+        </div>
+         <div id="flex" class="flex">
+            
+              <div id="sistemas" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m5.png"></div>
+                 <div class="divtext"> <h3>Sistema de Control</h3></div>
+              </div>  
+              <div id="electrica" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m6.png"></div>
+                 <div class="divtext"> <h3>Área eléctrica</h3></div>
+              </div>
+              <div id="analitica" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m7.png"></div>
+                 <div class="divtext"> <h3>Analítica de procesos y  Medio Ambiente</h3></div>
+              </div> 
+              <div id="proteccion" class="division">
+                 <div class="divfoto"><img src="imgx/menux/m8.png"></div>
+                 <div class="divtext"> <h3>Equipos de protección</h3></div>
+              </div>      
+        </div>
+      </div>              
+    <body>
+</html>

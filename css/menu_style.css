@@ -1,0 +1,127 @@
+/*ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        
+        
+    }
+
+    li {
+        float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 12px;
+    }
+
+    li a {
+        
+    }
+.active a{
+        background-color: #87DF00;
+        color: #fff;
+        box-shadow: 10px 10px 5px -4px rgba(209,202,209,0.81);
+    }
+    
+  .active a:hover {
+        background-color: #00E1F2;
+        color:#fff;
+    }
+
+*/
+.men ul{
+	/*color fondo barra*/
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+        
+	}
+	.men li{
+		float: left;
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 12px;
+
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        
+        font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+		}
+	.men li a{
+		display: block;
+        color: #000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        border-radius: 2px;
+        font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+              
+		}
+	.men li:hover{
+		background-color: #00A3C3;
+        border-radius: 5px;
+        color: white;
+        transition-duration: 0.3s;
+        transition-timing-function: all;
+              
+		}	
+			
+	.men li ul{
+		/*color fondo opciones submenus*/
+		
+        background: rgba(0,163,195,0.81);
+		display:none;
+		height:auto;
+		padding:0px;
+		margin:0px;
+		border:0px;
+		position:absolute;
+		width:240px;
+		z-index:200;
+		
+		}
+	.men li:hover ul{
+		display:block;
+		
+		}
+	.men li li {
+		display:block;
+		float:none;
+		margin:0px;
+		padding:0px;
+		width:240px;
+		}
+	.men li:hover li a{
+		background:none;
+		
+		}
+	.men li ul a{
+		display:block;
+		height:35px;
+		font-size:12px;
+        color:#fff;
+		font-family: 'Questrial', sans-serif;
+        font-size: 1em;
+		margin:0px;
+		padding:0px 10px 0px 15px;
+		text-align:left;
+		}
+		.men li ul a:hover, .men li ul li:hover a{
+			background:#000;
+			padding-top: 5px;
+			border:0px;
+			color:#ffffff;
+			text-decoration:none;
+			}
+                        
+                        
+	.men p{
+		clear:left;
+		}	
