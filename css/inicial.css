@@ -15,7 +15,7 @@ body {
   }
 .carousel{
 	/* background-color: rgba(163,179,174,0.1); */
-	margin-top: 50px;
+	margin-top: 30px;
     height: auto;
     margin-bottom: 5%;
    
@@ -28,7 +28,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-size: 3em;
     color:#04A9D9;
-    text-shadow: -2px -2px 1px #000;
+    text-shadow: -1px -1px 1px #333;
 }
 
 
