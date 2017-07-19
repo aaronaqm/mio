@@ -10,7 +10,7 @@ li{
 
 
 
-footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', sans-serif; }
+footer { background-color:#030707; min-height:350px; font-family: 'Open Sans', sans-serif; }
 .footer-col { margin-top:50px; }
 .logofooter { margin-bottom:10px; font-size:25px; color:#fff; font-weight:700;}
 
@@ -27,7 +27,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  .copyright p { text-align:left; color:#FFF; padding:10px 0; margin-bottom:0;}
  .heading7 { font-size:21px; font-weight:700; color:#d9d6d6; margin-bottom:22px;}
  .post p { font-size:12px; color:#FFF; line-height:20px;}
- .post p span { display:block; color:#8f8f8f;}
+ .post p span { display:block; color:#00A3C3;}
  .bottom_ul { list-style-type:none; float:right; margin-bottom:0;}
  .bottom_ul li { float:left; line-height:40px;}
  .bottom_ul li:after { content:"/"; color:#FFF; margin-right:8px; margin-left:8px;}
@@ -57,4 +57,7 @@ footer { background-color:#0c1a1e; min-height:350px; font-family: 'Open Sans', s
  }
  .google{
      background-color:#f63e28;
+ }
+ .youtube{
+     background-color:#E90006;
  }

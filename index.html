@@ -2,21 +2,23 @@
 <html>
     <head>
         <title>RTS Automation SAC</title>
-        <meta charset="UTF-8">
-        <script type="text/javascript" src="xjs/jquery-1.6.2.min.js"></script>
-        <script type="text/javascript" src="xjs/jquery.cycle.all.js"></script>
-        <link href="css/reset.css" rel="stylesheet" type="text/css">
-        <link href="css/miestilo.css" rel="stylesheet" type="text/css">
-         <link href="css/pie.css" rel="stylesheet" type="text/css">
-         <link href="css/menu_style.css" rel="stylesheet" type="text/css">
-        <link href="css/piepagina.css" rel="stylesheet" type="text/css">
         <meta name="author" content="Aaron Aquino Manyari">
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="favicon.ico" type="ximg/favicon.icon"/>
-        <link href="https://fonts.googleapis.com/css?family=Cantata+One|Jura:400,600|Questrial|Quicksand:400,700" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fredoka+One|Noto+Sans|Nunito" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Abel|Days+One|Heebo" rel="stylesheet">
+        <script type="text/javascript" src="xjs/jquery-1.6.2.min.js"></script>
+        
+        <link href="css/reset.css" rel="stylesheet" type="text/css">
+        <link href="css/maininicial.css" rel="stylesheet" type="text/css">
+        <link href="css/degrades.css" rel="stylesheet" type="text/css">
+        <link href="css/mainpie.css" rel="stylesheet" type="text/css">
+
+       
+        
+        
+        
+        <link href="https://fonts.googleapis.com/css?family=Karla|Questrial" rel="stylesheet">
+
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
@@ -34,187 +36,197 @@
         </script>
         </head>
     <body>
-        <div id="logox" class="logotipo"><img src="imgx/logotipo.svg"/></div>
-        <nav id="lemenu" class="barramenu men">
-                        <ul>
-                          <li><a href="empresa.html">Nosotros</a>
+    <header class="container-fluid">
+         <section class="row ">
+            <div class="col-md-4">
 
-                                <ul>
-                                  <!--
-                                  <li><a href="nosotros.html" target="_self"> Nosotros</a></li>
-                                <li><a href="oficinas.html" target="_self">Oficinas</a></li>
-                                 -->
-                                <li><a href="http://www.rts-auto.com/rec/PerfilpresentacionLITE.pdf" target="_blank">Perfil de la empresa</a></li>
-                              
-                              </ul>
-                          </li>
+                <img src="imgx/logotipo.svg" class="img-responsive center-block"/>
+            </div>
+            <div class="col-md-8">
+                <ul class="nav nav-pills navbar-right margenmenu">
+                  <li role="presentation" class="active"><a href="#">Home</a></li>
+                  <li role="presentation"><a href="#">Nosotros</a></li>
+                  <li role="presentation"><a href="#">Productos</a></li>
+                  <li role="presentation"><a href="#">Ingenieria & Proyectos</a></li>
+                  <li role="presentation"><a href="#">Servicios</a></li>
+                  <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Zona de descargas<span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Catalogo minero</a></li>
+                            <li><a href="#">Catalogo de Servicios</a></li>
+                            <li><a href="#">Tripticos</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Formatos para cotizacion</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Planos y datasheets</a></li>
+                          </ul>
+                </li>
+                <li role="presentation"><a href="#">Webmail</a></li>
+                </ul>
+            </div>   
+         </section>   
+         
+    </header>
+    <div class="container-fluid ">
+              <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators ">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                  <li data-target="#myCarousel" data-slide-to="6"></li>
+                  <li data-target="#myCarousel" data-slide-to="7"></li>
+                </ol>
 
-                          <li><a href="noticias.html">Productos</a>
-                                <ul>
-                                <li><a href="pesajedinamico.html" target="_self">Pesaje Dinámico</a></li>
-                                <li><a href="instrumentacioncampo.html" target="_self">Instrumentación de Campo</a></li>
-                                <!--
-                                <li><a href="medicionnuclear.html" target="_self">Medición Nuclear</a></li>
-                                <li><a href="sonardenivel.html" target="_self">Sonar de Nivel</a></li>
-                                <li><a href="detectormetal.html" target="_self">Detector de Metales</a></li>
-                                <li><a href="sistemascontrol.html" target="_self">Sistemas de Control Distribuido</a></li>
-                                <li><a href="sistemascada.html" target="_self">Sistemas de Control SCADA</a></li>
-                                <li><a href="valvulascontrol.html" target="_self">Válvulas de Control</a></li>
-                                <li><a href="conectividadredes.html" target="_self">Conectividad y redes</a></li>
-                              -->
-                              </ul>
-                          </li>
-                          <li><a href="servicios.html">Área de Servicios</a>
-                            <ul>
-                              <!--
-                                <li><a href="divservicios.html" target="_self">División de Servicios</a></li>
-                                <li><a href="divproyautomation.html" target="_self">Proyectos de Automatización</a></li>
-                                <li><a href="divmontaje.html" target="_self">Montaje electromecánico</a></li>
-                                -->
-                            </ul>
-                          </li>
-                          <li><a href="proyectos.html">Catálogos</a>
-                                <ul>
-                                <li><a href="rec/PerfilpresentacionLITE.pdf" target="_blank">Perfil presentacion</a></li>
-                                <li><a href="rec/catalogo2016.pdf" target="_blank">Catálogo de productos</a></li>
-                                <li><a href="rec/flyervalvulas.pdf" target="_blank">Flyer Valvulas</a></li>
-                              </ul></li>
-                          <li class="active"><a href="https://secure.verio.com/secure/login.bml#webmail">Webmail</a></li>
-                        </ul>
-        </nav>
-        
-        <div id="carrusel1" class="bannerpc">
-                <img src="imgx/intro/AM0.jpg"/>
-                <img src="imgx/intro/AM1.jpg"/>
-                <img src="imgx/intro/AM2.jpg"/>
-                <img src="imgx/intro/AM3.jpg"/>
-                <img src="imgx/intro/AM4.jpg"/>
-                <img src="imgx/intro/AM5.jpg"/>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+
+                  <div class="item active">
+                    <section class="row">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Balanza de faja</h3>
+                        <h4>Pesaje dinamico</h4>
+                        <p>Agregar una escala de cinta a su sistema de transportador es una excelente manera de monitorear el caudal de su material y asegurar la precisión de su salida de peso totalizado.</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/merrickintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div>
+
+                  <div class="item">
+                    <section class="row">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Medición Sólidos</h3>
+                        <h4>Nivel</h4>
+                        <p> Incluso con mucho polvo, El VEGAPULS 69 para la medición de nivel en sólidos proporciona lecturas precisas: no le afecta el polvo en suspensión dentro del silo ni las adherencias en su antena. El sensor radar ofrece también una perfecta focalización a 80 GHz. ¡El único en su clase!</p>
+
+                      </div>
+                      <div class="col-md-8  col-sm-12">
+                        <img src="imgx/intro/nivelintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                    
+                  </div>
                 
-        </div>
-            <div id="lerapido" class="rapido">
+                  <div class="item">
+                   <section class="row">
+                      <div class="col-md-4 col-sm-12 ">
+                        <h3>Soluciones de medición</h3>
+                        <h4>Instrumentación de campo</h4>
+                        <p>Son excepcionalmente confiables en aplicaciones de alta presión que demandan precisión y calidad.</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/noshokintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div>
+              
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Densidad</h3>
+                        <h4>Instrumentación de Campo</h4>
+                        <p>Las aplicaciones se enfocan al flujo de sólidos en las operaciones de procesamiento de mineral seco y a las operaciones de extracción de metales en lodos. La capacidad de medición estable del ProTrac y su diseño robusto lo hacen perfecto para muchas aplicaciones de minería y de procesamiento de metales.</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/densidadintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div>  
+
+
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Cuchilla</h3>
+                        <h4>Válvulas</h4>
+                        <p>ORBINOX produce una amplia gama de válvulas de guillotina, compuertas, dampers y equipos hidromecánicos que se utilizan en una gran variedad de segmentos industriales tales como tratamiento de aguas, minería, generación de energía, pasta y papel, alimentación y bebidas, petroquímica, siderurgia, separación de aire, y presas, embalses y obras hidráulicas.</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/orbinoxintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div>  
+
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Detector de metal</h3>
+                        <h4>Pesaje dinámico</h4>
+                        <p> Los detectores de metales Tectron pueden ser utilizados para todas las aplicaciones industriales. Puede ser personalizado para ignorar el material transportado, discriminar entre diferentes tipos de metales, y detectar metales potencialmente dañinos o no deseados.y</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/orbinoxintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div> 
+
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Pesaje dinamico</h3>
+                        <h4>Pesaje dinamico</h4>
+                        <p> contamos con equipos para heavy duty contamos con equipos para heavy duty contamos con equipos para heavy duty</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/orbinoxintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div>    
+
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Pesaje dinamico</h3>
+                        <h4>Pesaje dinamico</h4>
+                        <p> contamos con equipos para heavy duty contamos con equipos para heavy duty contamos con equipos para heavy duty</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/orbinoxintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div> 
+
+                  <div class="item">
+                   <section class="row ">
+                      <div class="col-md-4 col-sm-12">
+                        <h3>Pesaje dinamico</h3>
+                        <h4>Pesaje dinamico</h4>
+                        <p> contamos con equipos para heavy duty contamos con equipos para heavy duty contamos con equipos para heavy duty</p>
+
+                      </div>
+                      <div class="col-md-8 col-sm-12">
+                        <img src="imgx/intro/orbinoxintro.png" class="img-responsive center-block">
+                      </div>
+                    </section>
+                  </div> 
+
+             </div>
+
+          </div>
+    </div>
+<!--
+    <div id="lerapido" class="rapido">
                 <div id="T1" class="boxtext"><p>Descarga catálogo</p></div><div class="mrapido"><a href="rec/catalogo2016.pdf" target="_blank"><img id="Cir1" src="imgx/btn1.png"/></a></div>
                 <div id="T2" class="boxtext"><p>Ubíquenos</p></div><div id="Cir2" class="mrapido"><a href="https://maps.google.com.pe/maps?q=rts+automation+sac&hl=en&ie=UTF8&fb=1&gl=pe&hq=rts+automation+sac&hnear=0x9105c8d7471df8e5:0x885c053043506a22,Bre%C3%B1a&cid=0,0,11313357525094817616&t=m&z=16&iwloc=A" target="_blank"><img id="Cir2" src="imgx/btn2.svg"/></a></div>
                 <div id="T3" class="boxtext"><p>Escribanos</p></div><div id="Cir3" class="mrapido"><a href="#Contactenos"><img id="Cir3" src="imgx/btn3.svg"  onclick="myFunction()"/></a></div>
                
-            </div>
-             <div id="GO" class="go"> <img src="imgx/go.svg" onclick="myMostrar()"/></div>
-       <div id="Laempresa" class="lecon">
-            <div class="unox"> <h3>Nuestra empresa</h3>
-                        <p> Somos proveedores de soluciones, expertos en el área de automatización industrial con un mayor énfasis
-                        en minería, área en la cual nos hemos desarrollado desde nuestros inicios en 1997.
-                        Nuestra área técnica tiene más de 19 años de experiencia y muchos proyectos logrados, logrando una
-                        alta especialización de proyectos integrales de automatización: ingeniería básica y de detalle, montaje y
-                        puesta en marcha de sistemas de control en plantas industriales.
-                        Contamos con una importante experiencia aportando soluciones completas en el campo de las aplicaciones
-                        industriales.
-                        Nuestros principales mercados son: Minería, Siderúrgicas, Cementos, Petróleos, Aguas.</p>
-                         <p>
-                        RTS AUTOMATION SAC brinda soluciones tecnológicas integrales apoyándonos en nuestras
-                        representadas y que satisfacen las necesidades reales de nuestros clientes, cumpliendo óptimos niveles
-                        de calidad.</p>
-                            
-            </div>
+    </div>
+-->
 
-            <div class="unoxder"> 
-                <h3>Actividades</h3>
-                <ul>
-                                <li>Suministro de Instrumentos Electrónicos Industriales.</li>
-                                <li>Suministros de Sistemas de Control para Procesos Industriales.</li>
-                                <li>Desarrollo de Ingeniería para la Automatización de Procesos Industriales.</li>
-                                <li>Implementación y puesta en marcha de proyectos de automatización.</li>
-                                <li>Montaje eléctrico y mecánico de instrumentos y sistemas de automatización.</li>
-                                <li>Mantenimiento de los Instrumentos y Sistemas Suministrados.</li>
-                                <li>Asesoría en temas de automatización e instrumentación.</li>
-                                <li>Cursos de Capacitación</li>
-                            </ul>
-                </div>
-            
-              <div style="clear: both"></div> 
-                <div class="contenedorreview"> 
-                    <div class="contenedorreview"> 
-                    
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini6.jpg"></p>
-                    </div>
-                        <div class="revistatitulo"> 
-                        <p>Instrumentación de campo </p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>Contamos con una gama de productos para cada tipo de procesos,
-                            asesorado por nuestros expertos </p>
-                    </div>
-                  </div> 
-                    <div class="contenedorreview"> 
-                    
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini4.jpg"></p>
-                    </div>
-                        <div class="revistatitulo"> 
-                        <p>Pesaje Dinámico y Detectotes de metal</p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>La experiencia y especialización de cada equipo que ofrecemos lo
-                            potencializará el control de pesaje dinámico </p>
-                    </div>
-                  </div> 
-                     <div class="contenedorreview"> 
-                    
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini5.jpg"></p>
-                    </div>
-                         <div class="revistatitulo"> 
-                        <p>Válvulas y Actuadores</p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>Válvulas para cada proceso e industria, actuadores... </p>
-                    </div>
-                  </div> 
-                    
-                    </div> 
-              <div class="contenedorreview"> 
-                    <div class="contenedorreview"> 
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini2.jpg"></p>
-                    </div>
-                        <div class="revistatitulo"> 
-                        <p>Nivel Radiométrico </p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>Contamos con una gama de productos para cada tipo de procesos, asesorado por nuestros expertos </p>
-                    </div>
-                  </div> 
-                  <div class="contenedorreview"> 
-                    
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini1.jpg"></p>
-                    </div>
-                        <div class="revistatitulo"> 
-                        <p>Sistemas de Control y SCADA </p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>La experiencia y especialización de cada equipo que ofrecemos lo potencializarán en el control de pesaje dinami´co </p>
-                    </div>
-                  </div> 
-                   <!--
-                     <div class="contenedorreview"> 
-                    
-                    <div class="revistafoto"> 
-                        <p><img src="imgx/xxmini2.jpg"></p>
-                   </div>
-                         <div class="revistatitulo"> 
-                        <p>Variadores eléctricos</p>
-                    </div> 
-                    <div class="revistatexto"> 
-                        <p>Válvulas para cada proceso e industria, actuadores... </p>
-                    </div>
-                  </div> 
-                -->
-                    </div>
-
-        </div>            
-        <div id="datoscorreo">
-            <div class="simply-scroll simply-scroll-container">
+    <div class="container-fluid">    
+        <div class="simply-scroll simply-scroll-container representadas">
                 <div class="simply-scroll-clip">
                     <ul id="scroller" class="simply-scroll-list" style="width: 2720px;">
                        <li><a href="http://www.abb.com.pe" target="_blank"><img src="imgx/representadas/logo-01.jpg" width="145" height="70" alt="ABB"></a></li>
@@ -232,85 +244,77 @@
                         <li><a href="http://www.kpatents.com/" target="_blank"><img src="imgx/representadas/logo-13.jpg" width="145" height="70" alt="K Patens"></a></li>
                         <li><a href="http://www.interapp.es/" target="_blank"><img src="imgx/representadas/logo-14.jpg" width="145" height="70" alt="InterApp"></a></li>
                         <li><a href="https://www.minebea-intec.com/es/start/?setCountry=165" target="_blank"><img src="imgx/representadas/logo-15.jpg" width="145" height="70" alt="Minebea intec"></a></li>
-                        
-                    </ul>
+                            
+                        </ul>
                 </div>
             </div>
+    </div>
+          
+
+<link href="https://fortawesome.github.io/Font-Awesome/assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+<!--footer start from here-->
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 col-sm-6 footer-col">
+        <div class="logofooter"> <img src="imgx/logobajo.png" width="220" height="49" /></div>
+        <p>Desde el año 1997, RTS Automation S.A.C. ha desarrollado importantes proyectos de automatización y sistemas eléctricos   generando y acumulando dentro de la organización una especialización, experiencia y calidad que ofrecemos a nuestros clientes y proveedores.</p>
+        <p><i class="fa fa-map-pin"></i> Jr. Huaraz 1882 - Breña -Lima - Peru</p>
+        <p><i class="fa fa-phone"></i> Phone (51) : 01 628 0090</p>
+        <p><i class="fa fa-envelope"></i> E-mail : ventas@rts-auto.com</p>
+        <p><i class="fa fa-envelope"></i> E-mail : servicios@rts-auto.com</p>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">ENLACES</h6>
+        <ul class="footer-ul">
+          <li><a href="#"> Brochure general</a></li>
+          <li><a href="#"> Contactenos</a></li>
+           <li><a href="#">Mapa</a></li>
+          <li><a href="#"> Nosotros</a></li>
+          <li><a href="#"> Cotizaciones</a></li>
+          <li><a href="#"> Trabaje con nosotros</a></li>
+          
+        </ul>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Novedades</h6>
+        <div class="post">
+          <p>RTS Automation participará en EXPOMINA 2017, ciudad de Arequipa <span>Julio 14,2017</span></p>
+          <p>Novedades equipos VEGA <span>Julio 1,2017</span></p>
+          <p>Nuevo video detector de metal Tectron<span>Enero 2,2017</span></p>
         </div>
-      <div id="pie">
-         
-         <table width="1384" border="0" align="center">
-    <tr>
-      <td width="308" height="00" valign="top" class="pieh1">&nbsp;</td>
-      <td width="115" height="0" valign="top" class="pieh1"><p class="pietitulo">Lima</p></td>
-      <td width="270" height="00" valign="top">&nbsp;</td>
-      <td width="124" height="0" valign="top" class="pieh1"><p class="pietitulo"></p></td>
-      <td width="341" valign="top">&nbsp;</td>
-      <td width="200" height="0" valign="top">&nbsp;</td>
-    </tr>
-    <tr>
-      <td rowspan="3" class="piedatos"><img src="imgx/logobajo.png" width="220" height="49" /></td>
-      <td class="piedatos">Dirección:</td>
-      <td class="piedatos">Jr. Huaraz 1882 - Breña - Lima - Perú</td>
-      <td class="piedatos">Email:</td>
-      <td class="piedatos"><p> ventas@rts-auto.com </p></td>
-      <td class="piedatos">&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="piedatos">Central:</td>
-      <td class="piedatos">(51)1 628 0090</td>
-      <td class="piedatos"></td>
-      <td class="piedatos"><p>servicios@rts-auto.com</p> </td>
-      <td rowspan="3" class="piedatos maps"><a href="https://maps.google.com.pe/maps?q=rts+automation+sac&hl=en&ie=UTF8&fb=1&gl=pe&hq=rts+automation+sac&hnear=0x9105c8d7471df8e5:0x885c053043506a22,Bre%C3%B1a&cid=0,0,11313357525094817616&t=m&z=16&iwloc=A" target="_blank"><img src="imgx/maps.png" width="20" height="34" hspace="0" vspace="0" /></a></td>
-    </tr>
-    <tr>
-      <td class="piedatos">Directo:</td>
-      <td class="piedatos">965 390 775</td>
-      <td class="piedatos"></td>
-      <td class="piedatos"><p>administracion@rts-auto.com</p></td>
-    </tr>
-    <tr>
-      <td class="piedatos">&nbsp;</td>
-      <td class="piedatos"></td>
-      <td class="piedatos"> </td>
-      <td class="piedatos">&nbsp;</td>
-      <td class="piedatos">&nbsp;</td>
-    </tr>
-    <tr>
-      <td class="piedatos">&nbsp;</td>
-      <td class="piedatos">&nbsp;</td>
-      <td class="piedatos">&nbsp;</td>
-      <td class="piedatos">&nbsp;</td>
-      <td>&nbsp;</td>
-      <td>&nbsp;</td>
-    </tr>
-    <tr>
-      <td colspan="6" class="pieweb">Mayo 2017</td>
-    </tr>
-  </table>
-</div>                 
-        <div id="Contactenos" class="leseccionx colorformulario">
-             <div class="almohada"> </div>
-            <div class="formulario">
-                <h4>Suscríbase</h4>
-                 <p>Rellene el siguiente formulario, en breve nos comunicaremos con Usted.</p>
-                 <section class="leform">
-                      <form action="js/contact.php" method="post">
-                      <input id="nombre" type="text" name="nombre" placeholder="Nombre" required="" />
-                      <input id="apellido" type="text" name="apellido" placeholder="Apellido" required="" />
-                       <input id="empresa"  type="text" name="empresa" placeholder="Empresa" required="" /></textarea>
-                        <input id="telefono"  type="text" name="telefono" placeholder="Telefono o Celular" required="" /></textarea>
-                      <input id="email"  type="email" name="email" placeholder="sucorreo@correo.com" required="" /></textarea>
-                      <input id="comentario"  type="text" name="comentario" placeholder="Escriba su comentario o consulta" required="" /></textarea>
-                      <input id="submit" type="submit" name="submit" value="Enviar" />
-                      </form>
-                  </section>            
-            </div>
-             <div class="almohada"> </div>
-        </div>
-        <div id="section8" class="pie">
-                
-        </div>
-        
-    </body>
-    </html>
+      </div>
+      <div class="col-md-3 col-sm-6 footer-col">
+        <h6 class="heading7">Social Media</h6>
+        <ul class="footer-social">
+          <li><i class="fa fa-linkedin social-icon linked-in" aria-hidden="true"></i></li>
+          <li><i class="fa fa-facebook social-icon facebook" aria-hidden="true"></i></li>
+          <li><i class="fa fa-youtube social-icon youtube" aria-hidden="true"></i></li>
+          <li><i class="fa fa-google-plus social-icon google" aria-hidden="true"></i></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+<!--footer start from here-->
+<!--pie de pagina tomado de  prabuuideveloper-->
+<div class="copyright">
+  <div class="container">
+    <div class="col-md-6">
+
+      <p>Julio 2017</p>
+    </div>
+    <div class="col-md-6">
+      <ul class="bottom_ul">
+        <li><a href="#">www.aaronaquinomayari.com</a></li>
+        <li><a href="#">Acerda de nosotros</a></li>
+        <li><a href="#">Trabaje con nosotros</a></li>
+        <li><a href="#">Faq's</a></li>
+        <li><a href="#">Contactenos</a></li>
+        <li><a href="#">Site Map</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+
+.colorformulario{
+    background-color: #000;
+    background-image: url(../imgx/escribanos2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    float: left;
+    width: 100vw;
+    height: 110%;
+    display: none; 
+}
+
+    
+.formulario{
+    clear: both;
+    margin: 0 auto;
+    width:60%;
+    height: auto;
+    background-color: rgba(0,0,0,0.55);
+    }
+    .formulario h4{
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 18pt;
+    color: #fff;
+    
+    }
+.formulario p{
+    
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-family: 'arial', sans-serif;
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.formulario label {
+    display:block;
+    letter-spacing:1px;
+   font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 12px;
+}
+
+.formulario input{
+    width:42%;
+    height:30px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background:#fff;
+    border:2px solid #fff;
+    padding:15px;
+    margin-top:2px;
+    font-size:.8em;
+    color:#000;
+}
+.formulario textarea {
+    width:93%;
+    height:80px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background:#fff;
+    border:2px solid #fff;
+    padding:15px;
+    margin-top:2px;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1em;
+    color:#000;
+} 
+#email {
+    width:93%;
+    height:30px;
+    margin-left: 2%;
+    margin-bottom: 2%;
+    background:#fff;
+    border:2px solid #fff;
+    padding:15px;
+    margin-top:2px;
+    font-size:.8em;
+    color:#000;
+    
+}
+ 
+#submit {
+    display:block;
+    width:120px;
+    height:50px;
+    margin:0 auto;
+    background-color:  #00A4D6;
+    cursor:pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    font-size:.8em;
+
+
+}
+#submit:hover {
+    cursor:pointer;
+    border-radius: 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #000;
+    
+}
+  
