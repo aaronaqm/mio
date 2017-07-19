@@ -2,7 +2,7 @@
 	height: 35vh;
 
   background: rgba(44,34,226,1);
-  /*
+
   background: rgba(226,226,226,1);
 background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(100%, rgba(254,254,254,1)));
@@ -11,13 +11,29 @@ background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 
 background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
 background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=0 );
-*/
+
 }
 .categorizando{
-  height: 40vh;
+  height: 60vh;
+  max-height: 100%;
+  background-color: #EDECEB;
 
-  background-color: rgba(192, 201, 195, 0.74);
 }
 .espacioproductos{
-  background-color: rgba(16, 181, 210, 0.18);
+
+}
+.espacioproductos h4{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-size: 1.4em;
+}
+.espacioproductos p{
+  text-align: center;
+  font-size: 1em;
+}
+.espacioproductos a{
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.4em;
 }
