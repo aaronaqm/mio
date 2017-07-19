@@ -15,9 +15,9 @@ body {
   }
 .carousel{
 	/* background-color: rgba(163,179,174,0.1); */
-	margin-top: 30px;
+	margin-top: 10px;
     height: auto;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
     background-color: #fff;
 
 }
@@ -60,7 +60,7 @@ body {
 	position: absolute;
 	top: 00px;
 	left: 0px;
-	height: 120px;
+	height: 100px;
 	width: 100%;
 	z-index: 10;
 
