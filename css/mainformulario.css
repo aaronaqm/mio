@@ -1,21 +1,19 @@
-
 .colorformulario{
-    background-color: #000;
-    background-image: url(../imgx/escribanos2.jpg);
+    background-image: url(../imgx/escribanos.jpg);
     background-repeat: no-repeat;
     background-size: 100% auto;
-    float: left;
     width: 100vw;
-    height: 110%;
-    display: none; 
+    height: 100vh;
+}
+.leform{
+  margin-top: 10vh;
 }
 
-    
 .formulario{
     clear: both;
     margin: 0 auto;
-    width:60%;
-    height: auto;
+    width: 100vw;
+    height: 100vh;
     background-color: rgba(0,0,0,0.55);
     }
     .formulario h4{
@@ -24,10 +22,10 @@
     font-family: 'Questrial', sans-serif;
     font-size: 18pt;
     color: #fff;
-    
+
     }
 .formulario p{
-    
+
     margin-top: 12px;
     margin-left: 10px;
     margin-right: 10px;
@@ -71,7 +69,7 @@
     font-family: 'Questrial', sans-serif;
     font-size: 1em;
     color:#000;
-} 
+}
 #email {
     width:93%;
     height:30px;
@@ -83,10 +81,10 @@
     margin-top:2px;
     font-size:.8em;
     color:#000;
-    
+
 }
- 
-#submit {
+
+.enviar {
     display:block;
     width:120px;
     height:50px;
@@ -97,16 +95,18 @@
     border-style: solid;
     border-width: 2px;
     border-color: #fff;
-    font-size:.8em;
+    font-size:1em;
 
 
 }
-#submit:hover {
+.enviar:hover {
     cursor:pointer;
     border-radius: 10px;
     border-style: solid;
     border-width: 2px;
-    border-color: #000;
-    
+    background-color:  rgb(238, 132, 21);
+    color:#fff;
+    border-color: #fff;
+    font-size:1em;
+
 }
-  
