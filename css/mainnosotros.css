@@ -1,0 +1,38 @@
+.colorgris{
+	background-color: #776699;
+}
+.lapresentacion{
+	height: 80vh;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	
+}
+
+.nuestramision{
+	height: 50vh;
+	margin-bottom: 2%;
+	margin-top: 2%;
+	background-color: #efefef;
+}
+.mision{
+	height: auto;
+	
+	padding: 5%;
+	margin-bottom: 10px;
+}
+.mision h2{
+	font-family: 'Karla', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.mision h3{
+	font-family: 'Karla', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
+.mision p{
+	font-family: 'arial', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    margin: 10px;
+}
